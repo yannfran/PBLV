@@ -1,0 +1,36 @@
+\documentclass{beamer}
+
+\mode<presentation>
+{
+  \usetheme{Pittsburgh}
+  \usecolortheme{beaver}
+  \setbeamercovered{transparent}
+  \beamertemplatenavigationsymbolsempty
+}
+
+\usepackage{ngerman}                   
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+
+%% Auf Schriftart Palatino umschalten
+\usepackage[scaled=.95]{helvet}
+\usepackage{courier}
+
+\title{Titel}
+\subtitle{Untertitel}
+
+\author{Thomas Waldecker}
+\institute{
+Hochschule München\\
+Fakultät für Mathematik und Informatik
+}
+\date{19.01.2012}
+
+\pgfdeclareimage[height=0.5cm]{university-logo}{img/hm}
+\logo{\pgfuseimage{university-logo}}
+
+\begin{document}
+\input{00-einleitung}
+\input{01-content}
+\input{99-schluss}
+\end{document}
